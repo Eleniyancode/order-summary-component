@@ -72,6 +72,7 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
     html, body {
       height: 100vh;
@@ -86,6 +87,10 @@ textarea:not([rows]) {
       align-items: center;
       overflow: hidden;
       background-color: rgb(232, 243, 243);
+      font-family: "Red Hat Display", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
     }
 
     main {
@@ -99,9 +104,9 @@ textarea:not([rows]) {
       overflow: hidden;
     }
 
-    .top {
-      /* border: 2px solid red; */
-    }
+    /* .top {
+      border: 2px solid red;
+    } */
 
     .down {
       /* border: 2px solid green; */
@@ -126,11 +131,14 @@ textarea:not([rows]) {
       display: inline-block;
       max-width: 100px;
       /* border: 2px solid green; */
+      color: black;
     }
 
     .change {
       justify-self: flex-end;
       /* align-self: flex-end; */
+      color: blue;
+      text-decoration: underline;
     }
 
     button {
@@ -141,4 +149,12 @@ textarea:not([rows]) {
       border-color: blue;
       color: white;
       box-shadow: 0px 10px 5px grey;
+    }
+
+    .down-p {
+      color: hsl(224, 23%, 55%)
+    }
+
+    .down-h {
+      color: hsl(223, 47%, 23%);
     }
