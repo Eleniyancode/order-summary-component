@@ -86,7 +86,7 @@ textarea:not([rows]) {
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      background-color: rgb(232, 243, 243);
+      background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg) repeat-x;
       font-family: "Red Hat Display", sans-serif;
       font-optical-sizing: auto;
       font-weight: 300;
