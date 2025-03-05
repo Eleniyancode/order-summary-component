@@ -84,32 +84,38 @@ textarea:not([rows]) {
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
+      background-color: rgb(232, 243, 243);
     }
 
     main {
       max-width: 20rem;
       min-height: 32rem;
-      border: 2px solid red;
+      /* border: 2px solid red; */
       display: grid;
       grid-template-rows: 10em 22em;
       /* gap: 20px; */
+      border-radius: 20px;
+      overflow: hidden;
     }
 
     .top {
-      border: 2px solid red;
+      /* border: 2px solid red; */
     }
 
     .down {
-      border: 2px solid green;
+      /* border: 2px solid green; */
       padding-inline: 10px;
       text-align: center;
+      background-color: white;
+      
     }
 
     .change-option {
       display: grid;
       /* justify-content:space-between; */
       align-items: center;
-      border: 2px solid green ;
+      /* border: 2px solid green ; */
       /* gap: 10px; */
       grid-auto-flow: column;
       margin-block: 20px;
@@ -119,7 +125,7 @@ textarea:not([rows]) {
     .annual {
       display: inline-block;
       max-width: 100px;
-      border: 2px solid green;
+      /* border: 2px solid green; */
     }
 
     .change {
@@ -130,4 +136,9 @@ textarea:not([rows]) {
     button {
       padding: 10px;
       width: 18em;
+      border-radius: 20px;
+      background-color: blue;
+      border-color: blue;
+      color: white;
+      box-shadow: 0px 10px 5px grey;
     }
